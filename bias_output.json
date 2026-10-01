@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-30 18:13",
+    "generated_at": "2026-10-01 18:38",
     "week_start": "2026-10-02",
     "week_end": "2026-10-08",
     "instrument": "NQ / ES Futures"
@@ -61,11 +61,11 @@
   "macro_cluster": true,
   "macro_cluster_dir": "BEAR",
   "vix_term_structure": {
-    "vix_ratio": 0.866,
+    "vix_ratio": 0.872,
     "structure": "CONTANGO",
     "mood": "calm",
     "vvix": 89.5,
-    "ratio_wow": 0.04,
+    "ratio_wow": 0.046,
     "direction": "rising",
     "bias": "bearish"
   },
@@ -76,7 +76,7 @@
     "pw_mid": 30223.75,
     "pw_low": 29352.75,
     "4w_low": 28763.75,
-    "atr_5d": 412.58,
-    "atr_20d": 457.58
+    "atr_5d": 407.88,
+    "atr_20d": 448.8
   }
 }
