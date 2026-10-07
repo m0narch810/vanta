@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06 18:43",
+    "generated_at": "2026-10-07 19:08",
     "week_start": "2026-10-09",
     "week_end": "2026-10-15",
     "instrument": "NQ / ES Futures"
@@ -46,25 +46,25 @@
     "label": "LOW VOL"
   },
   "cot": {
-    "as_of": "2026-09-29",
-    "nq_lev_pctile": 0.5513,
-    "nq_lev_wow": 0.022,
-    "es_asset_mgr_net_pct": 0.4768,
-    "lev_label": "NEUTRAL",
+    "as_of": "2026-06-02",
+    "nq_lev_pctile": 0.0449,
+    "nq_lev_wow": 0.0,
+    "es_asset_mgr_net_pct": 0.0,
+    "lev_label": "EXTREME SHORT",
     "positioning_interpretation": "NEUTRAL positioning",
-    "cot_extreme": false,
-    "cot_extreme_label": null
+    "cot_extreme": true,
+    "cot_extreme_label": "FUMES_SHORT"
   },
   "fed_stance": "NEUTRAL",
-  "trend_phase": "EARLY",
+  "trend_phase": "EXHAUSTION",
   "macro_cluster": true,
   "macro_cluster_dir": "BEAR",
   "vix_term_structure": {
-    "vix_ratio": 0.856,
+    "vix_ratio": 0.854,
     "structure": "CONTANGO",
     "mood": "calm",
-    "vvix": 86.2,
-    "ratio_wow": -0.018,
+    "vvix": 85.0,
+    "ratio_wow": -0.02,
     "direction": "falling",
     "bias": "bullish"
   },
@@ -75,7 +75,7 @@
     "pw_mid": 30754.12,
     "pw_low": 30356.75,
     "4w_low": 28763.75,
-    "atr_5d": 467.88,
-    "atr_20d": 475.13
+    "atr_5d": 414.33,
+    "atr_20d": 473.49
   }
 }
