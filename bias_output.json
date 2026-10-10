@@ -1,39 +1,40 @@
 {
   "meta": {
-    "generated_at": "2026-10-09 18:35",
-    "week_start": "2026-10-09",
-    "week_end": "2026-10-15",
+    "generated_at": "2026-10-10 01:36",
+    "week_start": "2026-10-16",
+    "week_end": "2026-10-22",
     "instrument": "NQ / ES Futures"
   },
-  "confluence": "STRONG BEAR",
+  "confluence": "STRONG BULL",
   "macro_regime": {
-    "name": "RISK-OFF",
-    "score": -6,
+    "name": "RISK-ON",
+    "score": 3,
     "max_score": 11,
     "bullish_inputs": [
-      "yield_curve_wow"
-    ],
-    "bearish_inputs": [
+      "net_liq_wow",
       "vix_wow",
       "vix_4w",
-      "dxy_wow",
-      "dxy_4w",
-      "us10y_wow",
-      "us10y_4w",
+      "yield_curve_wow",
+      "yield_curve_4w",
       "vix_ratio_wow"
     ],
+    "bearish_inputs": [
+      "dxy_wow",
+      "dxy_4w",
+      "us10y_4w"
+    ],
     "factor_scores": {
-      "net_liq_wow": 0,
+      "net_liq_wow": 1,
       "net_liq_4w": 0,
-      "vix_wow": -1,
-      "vix_4w": -1,
+      "vix_wow": 1,
+      "vix_4w": 1,
       "dxy_wow": -1,
       "dxy_4w": -1,
-      "us10y_wow": -1,
+      "us10y_wow": 0,
       "us10y_4w": -1,
       "yield_curve_wow": 1,
-      "yield_curve_4w": 0,
-      "vix_ratio_wow": -1
+      "yield_curve_4w": 1,
+      "vix_ratio_wow": 1
     }
   },
   "price_model": {
@@ -46,36 +47,36 @@
     "label": "LOW VOL"
   },
   "cot": {
-    "as_of": "2026-09-29",
-    "nq_lev_pctile": 0.5513,
-    "nq_lev_wow": 0.022,
-    "es_asset_mgr_net_pct": 0.4768,
+    "as_of": "2026-10-06",
+    "nq_lev_pctile": 0.6987,
+    "nq_lev_wow": 0.0194,
+    "es_asset_mgr_net_pct": 0.4692,
     "lev_label": "NEUTRAL",
     "positioning_interpretation": "NEUTRAL positioning",
     "cot_extreme": false,
     "cot_extreme_label": null
   },
-  "fed_stance": "NEUTRAL",
+  "fed_stance": "DOVISH",
   "trend_phase": "EARLY",
-  "macro_cluster": true,
-  "macro_cluster_dir": "BEAR",
+  "macro_cluster": false,
+  "macro_cluster_dir": null,
   "vix_term_structure": {
-    "vix_ratio": 0.853,
+    "vix_ratio": 0.835,
     "structure": "CONTANGO",
     "mood": "calm",
-    "vvix": 85.2,
-    "ratio_wow": 0.0,
+    "vvix": 84.9,
+    "ratio_wow": -0.018,
     "direction": "falling",
     "bias": "bullish"
   },
   "key_levels": {
-    "4w_high": 31151.5,
-    "pw_high": 31151.5,
-    "pw_close": 30760.5,
-    "pw_mid": 30754.12,
-    "pw_low": 30356.75,
+    "4w_high": 31616.5,
+    "pw_high": 31616.5,
+    "pw_close": 30969.5,
+    "pw_mid": 31188.38,
+    "pw_low": 30760.25,
     "4w_low": 28763.75,
-    "atr_5d": 459.0,
-    "atr_20d": 487.8
+    "atr_5d": 313.5,
+    "atr_20d": 480.49
   }
 }
