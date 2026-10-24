@@ -1,36 +1,37 @@
 {
   "meta": {
-    "generated_at": "2026-10-23 17:37",
-    "week_start": "2026-10-23",
-    "week_end": "2026-10-29",
+    "generated_at": "2026-10-24 00:25",
+    "week_start": "2026-10-30",
+    "week_end": "2026-11-05",
     "instrument": "NQ / ES Futures"
   },
-  "confluence": "LEAN BEAR",
+  "confluence": "STRONG BEAR",
   "macro_regime": {
-    "name": "LEAN RISK-OFF",
-    "score": -2,
+    "name": "RISK-OFF",
+    "score": -3,
     "max_score": 11,
     "bullish_inputs": [
-      "vix_4w",
+      "dxy_wow",
       "us10y_wow",
       "yield_curve_4w"
     ],
     "bearish_inputs": [
+      "net_liq_wow",
       "vix_wow",
+      "vix_4w",
       "dxy_4w",
-      "us10y_4w",
       "yield_curve_wow",
       "vix_ratio_wow"
     ],
     "factor_scores": {
-      "net_liq_wow": 0,
+      "net_liq_wow": -1,
       "net_liq_4w": 0,
       "vix_wow": -1,
-      "vix_4w": 1,
-      "dxy_wow": 0,
+      "vix_4w": -1,
+      "dxy_wow": 1,
       "dxy_4w": -1,
       "us10y_wow": 1,
-      "us10y_4w": -1,
+      "us10y_4w": 0,
       "yield_curve_wow": -1,
       "yield_curve_4w": 1,
       "vix_ratio_wow": -1
@@ -38,44 +39,44 @@
   },
   "price_model": {
     "direction": "BEARISH",
-    "probability": 0.5
+    "probability": 0.48
   },
   "vol_forecast": {
-    "weekly_vol_pct": 1.8,
-    "percentile": 31,
+    "weekly_vol_pct": 1.4,
+    "percentile": 20,
     "label": "LOW VOL"
   },
   "cot": {
-    "as_of": "2026-10-13",
-    "nq_lev_pctile": 0.7436,
-    "nq_lev_wow": 0.0273,
-    "es_asset_mgr_net_pct": 0.4741,
-    "lev_label": "NEUTRAL",
-    "positioning_interpretation": "NEUTRAL positioning",
-    "cot_extreme": false,
-    "cot_extreme_label": null
+    "as_of": "2026-10-20",
+    "nq_lev_pctile": 0.8974,
+    "nq_lev_wow": 0.046,
+    "es_asset_mgr_net_pct": 0.4657,
+    "lev_label": "EXTREME LONG",
+    "positioning_interpretation": "EXTREME LONG \u2014 adding longs, reversal risk elevated",
+    "cot_extreme": true,
+    "cot_extreme_label": "FUMES_LONG"
   },
   "fed_stance": "NEUTRAL",
-  "trend_phase": "EARLY",
+  "trend_phase": "EXHAUSTION",
   "macro_cluster": false,
   "macro_cluster_dir": null,
   "vix_term_structure": {
-    "vix_ratio": 0.934,
+    "vix_ratio": 0.95,
     "structure": "CONTANGO",
     "mood": "calm",
-    "vvix": 103.3,
-    "ratio_wow": 0.069,
+    "vvix": 109.7,
+    "ratio_wow": 0.016,
     "direction": "rising",
     "bias": "bearish"
   },
   "key_levels": {
     "4w_high": 31616.5,
-    "pw_high": 31289.25,
-    "pw_close": 30143.75,
-    "pw_mid": 30455.88,
-    "pw_low": 29622.5,
-    "4w_low": 29352.75,
-    "atr_5d": 727.45,
-    "atr_20d": 532.35
+    "pw_high": 30225.0,
+    "pw_close": 29142.0,
+    "pw_mid": 29629.0,
+    "pw_low": 29033.0,
+    "4w_low": 29033.0,
+    "atr_5d": 339.0,
+    "atr_20d": 533.27
   }
 }
