@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-05 20:24",
+    "generated_at": "2026-11-06 19:46",
     "week_start": "2026-11-06",
     "week_end": "2026-11-12",
     "instrument": "NQ / ES Futures"
@@ -39,8 +39,8 @@
     "probability": 0.5
   },
   "vol_forecast": {
-    "weekly_vol_pct": 1.5,
-    "percentile": 22,
+    "weekly_vol_pct": 1.8,
+    "percentile": 30,
     "label": "LOW VOL"
   },
   "cot": {
@@ -58,13 +58,13 @@
   "macro_cluster": false,
   "macro_cluster_dir": null,
   "vix_term_structure": {
-    "vix_ratio": 0.946,
+    "vix_ratio": 0.983,
     "structure": "CONTANGO",
     "mood": "calm",
-    "vvix": 103.7,
-    "ratio_wow": 0.039,
-    "direction": "rising",
-    "bias": "bearish"
+    "vvix": 109.9,
+    "ratio_wow": 0.0,
+    "direction": "falling",
+    "bias": "bullish"
   },
   "key_levels": {
     "4w_high": 31616.5,
@@ -73,7 +73,7 @@
     "pw_mid": 29582.5,
     "pw_low": 28987.0,
     "4w_low": 28987.0,
-    "atr_5d": 970.81,
-    "atr_20d": 675.39
+    "atr_5d": 1196.35,
+    "atr_20d": 746.61
   }
 }
