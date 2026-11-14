@@ -1,49 +1,48 @@
 {
   "meta": {
-    "generated_at": "2026-11-13 20:10",
-    "week_start": "2026-11-13",
-    "week_end": "2026-11-19",
+    "generated_at": "2026-11-14 02:08",
+    "week_start": "2026-11-20",
+    "week_end": "2026-11-26",
     "instrument": "NQ / ES Futures"
   },
-  "confluence": "LEAN BEAR",
+  "confluence": "MIXED",
   "macro_regime": {
-    "name": "LEAN RISK-OFF",
-    "score": -1,
+    "name": "TRANSITION",
+    "score": 0,
     "max_score": 11,
     "bullish_inputs": [
       "net_liq_wow",
-      "dxy_wow",
-      "us10y_wow",
-      "us10y_4w"
+      "vix_wow",
+      "us10y_4w",
+      "vix_ratio_wow"
     ],
     "bearish_inputs": [
-      "net_liq_4w",
-      "vix_wow",
       "vix_4w",
-      "yield_curve_4w",
-      "vix_ratio_wow"
+      "dxy_wow",
+      "yield_curve_wow",
+      "yield_curve_4w"
     ],
     "factor_scores": {
       "net_liq_wow": 1,
-      "net_liq_4w": -1,
-      "vix_wow": -1,
+      "net_liq_4w": 0,
+      "vix_wow": 1,
       "vix_4w": -1,
-      "dxy_wow": 1,
+      "dxy_wow": -1,
       "dxy_4w": 0,
-      "us10y_wow": 1,
+      "us10y_wow": 0,
       "us10y_4w": 1,
-      "yield_curve_wow": 0,
+      "yield_curve_wow": -1,
       "yield_curve_4w": -1,
-      "vix_ratio_wow": -1
+      "vix_ratio_wow": 1
     }
   },
   "price_model": {
     "direction": "BULLISH",
-    "probability": 0.53
+    "probability": 0.51
   },
   "vol_forecast": {
-    "weekly_vol_pct": 1.8,
-    "percentile": 30,
+    "weekly_vol_pct": 1.5,
+    "percentile": 23,
     "label": "LOW VOL"
   },
   "cot": {
@@ -58,25 +57,25 @@
   },
   "fed_stance": "DOVISH",
   "trend_phase": "EXHAUSTION",
-  "macro_cluster": true,
-  "macro_cluster_dir": "BULL",
+  "macro_cluster": false,
+  "macro_cluster_dir": null,
   "vix_term_structure": {
-    "vix_ratio": 0.96,
+    "vix_ratio": 0.936,
     "structure": "CONTANGO",
     "mood": "calm",
-    "vvix": 100.8,
-    "ratio_wow": 0.0,
+    "vvix": 101.5,
+    "ratio_wow": -0.024,
     "direction": "falling",
     "bias": "bullish"
   },
   "key_levels": {
-    "4w_high": 31289.25,
-    "pw_high": 29180.0,
-    "pw_close": 26752.0,
-    "pw_mid": 27875.0,
-    "pw_low": 26570.0,
-    "4w_low": 26570.0,
-    "atr_5d": 905.95,
-    "atr_20d": 850.05
+    "4w_high": 30225.0,
+    "pw_high": 28697.0,
+    "pw_close": 28384.5,
+    "pw_mid": 27531.75,
+    "pw_low": 26366.5,
+    "4w_low": 26366.5,
+    "atr_5d": 912.5,
+    "atr_20d": 847.86
   }
 }
