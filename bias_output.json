@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-14 02:08",
+    "generated_at": "2026-11-16 22:39",
     "week_start": "2026-11-20",
     "week_end": "2026-11-26",
     "instrument": "NQ / ES Futures"
@@ -42,14 +42,14 @@
   },
   "vol_forecast": {
     "weekly_vol_pct": 1.5,
-    "percentile": 23,
+    "percentile": 22,
     "label": "LOW VOL"
   },
   "cot": {
-    "as_of": "2026-11-03",
-    "nq_lev_pctile": 0.9744,
-    "nq_lev_wow": 0.0266,
-    "es_asset_mgr_net_pct": 0.4674,
+    "as_of": "2026-11-10",
+    "nq_lev_pctile": 0.9872,
+    "nq_lev_wow": 0.0135,
+    "es_asset_mgr_net_pct": 0.4531,
     "lev_label": "EXTREME LONG",
     "positioning_interpretation": "EXTREME LONG \u2014 adding longs, reversal risk elevated",
     "cot_extreme": true,
