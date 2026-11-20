@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-19 21:05",
+    "generated_at": "2026-11-20 20:51",
     "week_start": "2026-11-20",
     "week_end": "2026-11-26",
     "instrument": "NQ / ES Futures"
@@ -46,12 +46,12 @@
     "label": "LOW VOL"
   },
   "cot": {
-    "as_of": "2026-11-10",
-    "nq_lev_pctile": 0.9872,
-    "nq_lev_wow": 0.0135,
-    "es_asset_mgr_net_pct": 0.4531,
+    "as_of": "2026-11-17",
+    "nq_lev_pctile": 0.8718,
+    "nq_lev_wow": -0.084,
+    "es_asset_mgr_net_pct": 0.4268,
     "lev_label": "EXTREME LONG",
-    "positioning_interpretation": "EXTREME LONG \u2014 adding longs, reversal risk elevated",
+    "positioning_interpretation": "EXTREME LONG \u2014 reducing, potential unwind underway",
     "cot_extreme": true,
     "cot_extreme_label": "FUMES_LONG"
   },
@@ -60,13 +60,13 @@
   "macro_cluster": false,
   "macro_cluster_dir": null,
   "vix_term_structure": {
-    "vix_ratio": 0.993,
-    "structure": "CONTANGO",
-    "mood": "calm",
-    "vvix": 113.9,
-    "ratio_wow": 0.032,
-    "direction": "rising",
-    "bias": "bearish"
+    "vix_ratio": 1.006,
+    "structure": "BACKWARDATION",
+    "mood": "stress",
+    "vvix": 116.5,
+    "ratio_wow": 0.0,
+    "direction": "falling",
+    "bias": "bullish"
   },
   "key_levels": {
     "4w_high": 30225.0,
@@ -75,7 +75,7 @@
     "pw_mid": 27531.75,
     "pw_low": 26366.5,
     "4w_low": 26366.5,
-    "atr_5d": 871.12,
-    "atr_20d": 891.11
+    "atr_5d": 977.3,
+    "atr_20d": 912.51
   }
 }
