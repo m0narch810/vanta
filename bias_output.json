@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-24 00:30",
+    "generated_at": "2026-11-24 22:51",
     "week_start": "2026-11-27",
     "week_end": "2026-12-03",
     "instrument": "NQ / ES Futures"
@@ -73,7 +73,7 @@
     "pw_mid": 27521.88,
     "pw_low": 26436.0,
     "4w_low": 26366.5,
-    "atr_5d": 1697.12,
-    "atr_20d": 1037.89
+    "atr_5d": 1818.75,
+    "atr_20d": 1050.05
   }
 }
