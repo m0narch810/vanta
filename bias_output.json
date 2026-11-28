@@ -1,34 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-11-27 21:45",
-    "week_start": "2026-11-27",
-    "week_end": "2026-12-03",
+    "generated_at": "2026-11-28 03:48",
+    "week_start": "2026-12-04",
+    "week_end": "2026-12-10",
     "instrument": "NQ / ES Futures"
   },
-  "confluence": "STRONG BEAR",
+  "confluence": "LEAN BEAR",
   "macro_regime": {
-    "name": "RISK-OFF",
-    "score": -7,
+    "name": "LEAN RISK-OFF",
+    "score": -2,
     "max_score": 11,
-    "bullish_inputs": [],
+    "bullish_inputs": [
+      "net_liq_4w",
+      "us10y_wow",
+      "us10y_4w"
+    ],
     "bearish_inputs": [
       "vix_wow",
       "vix_4w",
-      "dxy_wow",
       "dxy_4w",
-      "us10y_wow",
       "yield_curve_4w",
       "vix_ratio_wow"
     ],
     "factor_scores": {
       "net_liq_wow": 0,
-      "net_liq_4w": 0,
+      "net_liq_4w": 1,
       "vix_wow": -1,
       "vix_4w": -1,
-      "dxy_wow": -1,
+      "dxy_wow": 0,
       "dxy_4w": -1,
-      "us10y_wow": -1,
-      "us10y_4w": 0,
+      "us10y_wow": 1,
+      "us10y_4w": 1,
       "yield_curve_wow": 0,
       "yield_curve_4w": -1,
       "vix_ratio_wow": -1
@@ -36,11 +38,11 @@
   },
   "price_model": {
     "direction": "BULLISH",
-    "probability": 0.53
+    "probability": 0.51
   },
   "vol_forecast": {
-    "weekly_vol_pct": 1.8,
-    "percentile": 29,
+    "weekly_vol_pct": 1.5,
+    "percentile": 21,
     "label": "LOW VOL"
   },
   "cot": {
@@ -55,25 +57,25 @@
   },
   "fed_stance": "NEUTRAL",
   "trend_phase": "EXHAUSTION",
-  "macro_cluster": true,
-  "macro_cluster_dir": "BEAR",
+  "macro_cluster": false,
+  "macro_cluster_dir": null,
   "vix_term_structure": {
-    "vix_ratio": 1.064,
-    "structure": "BACKWARDATION",
-    "mood": "stress",
-    "vvix": 121.2,
-    "ratio_wow": 0.0,
+    "vix_ratio": 1.0,
+    "structure": "CONTANGO",
+    "mood": "calm",
+    "vvix": 107.8,
+    "ratio_wow": -0.065,
     "direction": "falling",
     "bias": "bullish"
   },
   "key_levels": {
-    "4w_high": 30178.0,
-    "pw_high": 28607.75,
-    "pw_close": 26600.25,
-    "pw_mid": 27521.88,
-    "pw_low": 26436.0,
-    "4w_low": 26366.5,
-    "atr_5d": 1499.69,
-    "atr_20d": 1113.26
+    "4w_high": 29180.0,
+    "pw_high": 27137.0,
+    "pw_close": 26100.25,
+    "pw_mid": 26056.75,
+    "pw_low": 24976.5,
+    "4w_low": 24976.5,
+    "atr_5d": 871.25,
+    "atr_20d": 1113.4
   }
 }
